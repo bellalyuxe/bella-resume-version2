@@ -1,0 +1,79 @@
+.profile-image {
+    width: 250px;
+    height: 250px;
+    /*make the image a circle*/
+    border-radius: 50%;
+    /*center the image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio-image, .self-image, .ps-image, .phone-image {
+    width: 100%;
+    height: 100%;
+}
+.yearbook-image, .skeching-image, .drawing-image, .totoro-image, .composition-image {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.xinen {
+    margin-top: 70px;
+    margin-bottom: -10px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    color:#6D2E46;
+}
+.home, .aboutme, .aportfolio, .contact {
+    color:#6D2E46;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+}
+
+.button-home {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    width: 300px;
+    height: 450px;
+    background: url(IMG_3987.jpeg);
+    background-size:cover;
+    transition: 0.3s;
+}
+.button-me {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    width: 300px;
+    height: 450px;
+    background: url(IMG_3597.jpg);
+    background-size:cover;
+    transition: 0.3s;
+}
+.button-portfolio {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    width: 300px;
+    height: 450px;
+    background-image: url(IMG_3598.jpg);
+    background-size:cover;
+    transition: 0.3s;
+
+}
+.button-contact {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    width: 300px;
+    height: 450px;
+    background-image: url(IMG_3599.jpg);
+    background-size:cover;
+    border-radius: 15%;
+    transition: 0.3s;
+}
+.button {
+    border-radius: 15%;
+    float: left;
+    width: 20%;
+    margin: 2.5%;
+}
+button:hover {
+    opacity: 0.7;
+}

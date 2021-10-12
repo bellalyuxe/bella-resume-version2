@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Xinen Lyu | Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+    <!--linking css to html-->
+    <link rel="stylesheet" href="version2.css">
+</head>
+
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(background.JPG);
+  min-height: 100%;
+}
+
+.portfolio {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-card">
+    <div class="w3-col s3">
+      <a href="#home" class="w3-button w3-block home">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block aboutme">ABOUT ME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#portfolio" class="w3-button w3-block aportfolio">PORTFOLIO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block contact">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header & Buttom with image -->
+<header class="bgimg w3-display-container" id="home">
+    <div class="w3-center">
+        <div class="xinen" style="font-size:70px">Xinen Lyu</div>
+    </div>
+    <div class="s3 w3-row w3-padding">
+        <button class="button button-home w3-button w3-block" type="button" onclick="window.location.href='#home'"><div class="w3-sand w3-tag">HOME</div></button>
+        <button class="button button-me w3-button w3-block" type="button" onclick="window.location.href='#about'"><div class="w3-sand w3-tag">ABOUT ME</div></button>
+        <button class="button button-portfolio w3-button w3-block" type="button" onclick="window.location.href='#portfolio'"><div class="w3-sand w3-tag">PORTFOLIO</div></button>
+        <button class="button button-contact w3-button w3-block" type="button" onclick="window.location.href='#contact'"><div class="w3-sand w3-tag">CONTACT</div></button>
+    </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Me -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:800px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <img class="profile-image" src="IMG_2523.jpeg" alt="Xinen Lyu">
+    <p>My name is Xinen Lyu, you can call me Bella.</p>
+    <p>I am a sophomore student at Georgia Institute of Technology and I major in Computational Media.</p>
+    <p>My thread is Film and Media.</p>
+    <p>With strong passion in the field of design, I created several projects throughout my career of study and gained new experiences as I work through them. I am looking forward to collecting more inspirations and creating new designs!</p>
+</div>
+
+<!-- Portfolio -->
+<div class="w3-container" id="portfolio">
+    <div class="w3-content" style="max-width:800px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PORTFOLIO</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Digital');" id="myLink">
+            <div class="w3-col s6 tablink">Digital Arts</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Painting & Drawing');">
+            <div class="w3-col s6 tablink">Painting & Drawing</div>
+        </a>
+    </div>
+
+    <div id="Digital" class="w3-container portfolio w3-padding-48 w3-card">
+        <h5>Photography Portfolio</h5>
+        <a href="https://plantain-rhino-aj5j.squarespace.com"><p class="w3-text-grey">Link to Photography Photfolio</p></a>
+        <p class="w3-text-grey">Password: lxe020301</p>
+        <p class="w3-text-grey">A set of photography taken in an old tea house in Chengdu, China</p>
+        <img class="portfolio-image" src="photography.PNG" alt="Photography Portfolio">
+        <pre>
+            
+        </pre>
+
+        <h5>Highschool Yearbook</h5>
+        <p class="w3-text-grey">Using Photoshop, LightroomCC, and Indesign to designe a yearbook.</p>
+        <img class="yearbook-image" src="yearbook.PNG" alt="Highschool Yearbook">
+        <pre>
+        
+        </pre>
+
+        <h5>Swing in the Brain</h5>
+        <p class="w3-text-grey">A piece of Photoshop artwork that expresses the idea that we all yearn for happiness and freedom.</p>
+        <img class="ps-image" src="ps.jpeg" alt="PS">
+        <pre>
+
+        </pre>
+
+        <h5>Poster Remix - Totoro</h5>
+        <p class="w3-text-grey">Using photoshop to remix different posters of Totoro in to a new one with a new theme.</p>
+        <img class="totoro-image" src="posterRemake.jpeg" alt="totoro">
+        <pre>
+
+        </pre>
+
+        <h5>Composition</h5>
+        <p class="w3-text-grey">Using photos taken by myself, I photoshoped a composition of different elements to emphasize the importance of nature within man-made manufactures.</p>
+        <img class="composition-image" src="composition.jpeg" alt="Composition">
+        <pre>
+
+        </pre>
+
+        <h5>Phone</h5>
+        <p class="w3-text-grey">Three poster about phone. From left to right: positive, negative, metaphorical.</p>
+        <img class="phone-image" src="phone.jpeg" alt="Phone">
+        <pre>
+
+        </pre>
+
+
+    </div>
+
+    <div id="Painting & Drawing" class="w3-container portfolio w3-padding-48 w3-card">
+        <h5>Painting</h5>
+        <p class="w3-text-grey">I painted three otters on a wood panel in gouda paint to appeal for the protection of Marine life.</p>
+        <img class="skeching-image" src="skeching.jpeg" alt="Skeching">
+        <pre>
+
+        </pre>
+
+        <h5>Self-portrait</h5>
+        <p class="w3-text-grey">A self-portrait in gouache.</p>
+        <img class="self-image" src="self.jpeg" alt="Self-portrait">
+        <pre>
+
+        </pre>
+
+        <h5>Drawing</h5>
+        <p class="w3-text-grey">Watercolor pen drawing of an anime character.</p>
+        <img class="drawing-image" src="drawing.jpeg" alt="Drawing">
+        <pre>
+
+        </pre>
+    
+
+    </div>  
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="w3-container" id="contact" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:800px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h5>
+    <div class ="w3-center">
+        <p>Let's Keep in Touch</p>
+        <div>
+            <a href="mailto:bella2002.lyu@gmail.com">bella2002.lyu@gmail.com</a>
+        </div>
+        <div>
+            <a href="tel:4708380824">4708380824</a>
+        </div>
+    </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-48 w3-large">
+    <p>Copyright 2021 by Xinen Lyu</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("portfolio");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
